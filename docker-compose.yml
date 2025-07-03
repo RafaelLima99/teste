@@ -46,3 +46,5 @@ services:
       PMA_PASSWORD: secret
     depends_on:
       - db
+    volumes:
+  dbdata:
